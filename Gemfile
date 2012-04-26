@@ -1,11 +1,10 @@
 source :rubygems
 
-gem 'foreman'
-gem 'rack'
+  gem 'rack', '1.3.5'
 gem 'thin'
-gem 'serve'
 
 group :development do
+gem 'foreman'
   gem 'heroku'
 end
 
